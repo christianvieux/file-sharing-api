@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/General_Assembly/code/ga/projects/GA_Project_Final/file-sharing-api/file-sharing-api.csproj": {}
+  },
+  "projects": {
+    "/home/General_Assembly/code/ga/projects/GA_Project_Final/file-sharing-api/file-sharing-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/General_Assembly/code/ga/projects/GA_Project_Final/file-sharing-api/file-sharing-api.csproj",
+        "projectName": "file-sharing-api",
+        "projectPath": "/home/General_Assembly/code/ga/projects/GA_Project_Final/file-sharing-api/file-sharing-api.csproj",
+        "packagesPath": "/home/GAuser/.nuget/packages/",
+        "outputPath": "/home/General_Assembly/code/ga/projects/GA_Project_Final/file-sharing-api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/GAuser/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[4.0.0.5, )"
+            },
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
