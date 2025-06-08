@@ -83,3 +83,8 @@ dotnet watch run
 - `S3_BUCKET_NAME` - S3 bucket for file storage
 - `DYNAMODB_TABLE_NAME` - DynamoDB table for metadata
 - `FILE_EXPIRATION_IN_MINUTES` - File link expiration time
+
+## 📂 Related Repositories
+
+- [Main Project (Monorepo)](https://github.com/christianvieux/GA_Project_Final_File-Sharing-App)
+- [Frontend Application](https://github.com/christianvieux/file-sharing-frontend)
