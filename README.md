@@ -5,7 +5,7 @@ The backend for a simple file-sharing app. Built with **.NET Core**, this API le
 ---
 
 ## 🌐 Live App  
-Visit the live application [here](http://54.165.74.209:3006/home)
+Visit the live application [here](http://44.215.35.137:3006/home)
 
 ---
 
