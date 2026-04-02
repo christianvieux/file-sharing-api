@@ -4,12 +4,12 @@ The backend for a simple file-sharing app. Built with **.NET Core**, this API le
 
 ---
 
-## 🌐 Live App  
+## Live App 🌐  
 Visit the live application [here](https://files.projects.christianvieuxdev.com/home)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **.NET Core 9.0** – Web API framework  
 - **AWS SDK for .NET**  
   - **S3** – File storage  
@@ -19,19 +19,19 @@ Visit the live application [here](https://files.projects.christianvieuxdev.com/h
 
 ---
 
-## ✅ Prerequisites
+## Prerequisites
 
 You’ll need:
 
 - [.NET Core SDK 9.0](https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian?tabs=dotnet9)
 - An **AWS Account** with:
-  - 📁 S3 Bucket
-  - 🗃️ DynamoDB Table
-  - 🔐 IAM User
+  - S3 Bucket 📁
+  - DynamoDB Table 🗃️
+  - IAM User 🔐
 
 ---
 
-## 🚀 AWS Setup
+## AWS Setup
 
 ### 1. IAM User
 
@@ -83,7 +83,7 @@ You’ll need:
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 1. Clone the backend:
 
@@ -121,7 +121,7 @@ dotnet run --urls "http://0.0.0.0:3005"
 
 ---
 
-## 🧪 Development Mode
+## Development Mode
 
 To run with hot reload:
 
@@ -133,7 +133,7 @@ dotnet watch run --urls "http://0.0.0.0:3005"
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint                   | Description                |
 | ------ | -------------------------- | -------------------------- |
@@ -144,7 +144,7 @@ dotnet watch run --urls "http://0.0.0.0:3005"
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables 🔐
 
 | Key                          | Purpose                           |
 | ---------------------------- | --------------------------------- |
@@ -157,7 +157,5 @@ dotnet watch run --urls "http://0.0.0.0:3005"
 
 ---
 
-## 📂 Related Repositories
-
-* [Main Project (Monorepo)](https://github.com/christianvieux/GA_Project_Final_File-Sharing-App)
+## Related Repositories 📂
 * [Frontend Application](https://github.com/christianvieux/file-sharing-frontend)
